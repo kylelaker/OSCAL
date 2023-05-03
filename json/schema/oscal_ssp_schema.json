@@ -164,7 +164,7 @@
                     { "system" : 
                       { "title" : "Information Type Identification System",
                         "description" : "Specifies the information type identification system used.",
-                        "allOf" : 
+                        "anyOf" : 
                         [ 
                           { "$ref" : "#/definitions/URIDatatype" },
                           
@@ -1072,7 +1072,7 @@
               { "scheme" : 
                 { "title" : "External Identifier Schema",
                   "description" : "Indicates the type of external identifier.",
-                  "allOf" : 
+                  "anyOf" : 
                   [ 
                     { "$ref" : "#/definitions/URIDatatype" },
                     
@@ -1290,7 +1290,7 @@
         { "name" : 
           { "title" : "Property Name",
             "description" : "A textual label that uniquely identifies a specific attribute, characteristic, or quality of the property's containing object.",
-            "allOf" : 
+            "anyOf" : 
             [ 
               { "$ref" : "#/definitions/TokenDatatype" },
               
@@ -1331,7 +1331,7 @@
           "rel" : 
           { "title" : "Relation",
             "description" : "Describes the type of relationship provided by the link. This can be an indicator of the link's purpose.",
-            "allOf" : 
+            "anyOf" : 
             [ 
               { "$ref" : "#/definitions/TokenDatatype" },
               
@@ -1418,7 +1418,7 @@
         { "algorithm" : 
           { "title" : "Hash algorithm",
             "description" : "Method by which a hash is derived",
-            "allOf" : 
+            "anyOf" : 
             [ 
               { "$ref" : "#/definitions/StringDatatype" },
               
@@ -1476,7 +1476,7 @@
         { "type" : 
           { "title" : "type flag",
             "description" : "Indicates the type of phone number.",
-            "allOf" : 
+            "anyOf" : 
             [ 
               { "$ref" : "#/definitions/StringDatatype" },
               
@@ -1498,7 +1498,7 @@
         { "type" : 
           { "title" : "Address Type",
             "description" : "Indicates the type of address.",
-            "allOf" : 
+            "anyOf" : 
             [ 
               { "$ref" : "#/definitions/TokenDatatype" },
               
@@ -1541,7 +1541,7 @@
         { "scheme" : 
           { "title" : "Document Identification Scheme",
             "description" : "Qualifies the kind of document identifier using a URI. If the scheme is not provided the value of the element will be interpreted as a string of characters.",
-            "allOf" : 
+            "anyOf" : 
             [ 
               { "$ref" : "#/definitions/URIDatatype" },
               
@@ -1565,7 +1565,7 @@
           "type" : 
           { "title" : "Component Type",
             "description" : "A category describing the purpose of the component.",
-            "allOf" : 
+            "anyOf" : 
             [ 
               { "$ref" : "#/definitions/StringDatatype" },
               
@@ -1707,7 +1707,7 @@
         { "state" : 
           { "title" : "Implementation State",
             "description" : "Identifies the implementation status of the control or control objective.",
-            "allOf" : 
+            "anyOf" : 
             [ 
               { "$ref" : "#/definitions/TokenDatatype" },
               
@@ -1896,7 +1896,7 @@
         { "identifier-type" : 
           { "title" : "Identification System Type",
             "description" : "Identifies the identification system from which the provided identifier was assigned.",
-            "allOf" : 
+            "anyOf" : 
             [ 
               { "$ref" : "#/definitions/URIDatatype" },
               
